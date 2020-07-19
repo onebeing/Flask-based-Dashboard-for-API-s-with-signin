@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registrants
+        </title>
+
+    </head>
+    <body>
+        {% for row in rows  %}
+        <li>{{ row["username"] }} ({{ row["id"] }})
+        </li>
+        {%  endfor %}
+
+    </body>
+</html>
